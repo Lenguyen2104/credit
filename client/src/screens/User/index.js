@@ -157,7 +157,7 @@ export default function User() {
           }}
         >
           &reg; Bản quyền thuộc về công ty cổ phần Dịch vụ Tài chính
-          <br /> Mcredit
+          <br /> TÍN VIỆT
         </Typography.Text>
       </div>
     </motion.div>

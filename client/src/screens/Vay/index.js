@@ -57,7 +57,7 @@ export default function Vay() {
   return (
     <div className="container">
       <div className="head" />
-      <div className="vay-header" style={{ background: '#141ed2' }}>
+      <div className="vay-header" style={{ background: '#ef4444' }}>
         <motion.div
           whileTap={{ scale: 0.95, x: -10 }}
           onClick={() => history.replace('/')}

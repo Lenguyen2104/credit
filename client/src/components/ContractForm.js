@@ -36,7 +36,7 @@ export default function App({ data, profile }) {
         <br />
         <p>
           Bên A (Bên cho vay):{' '}
-          <Typography.Text strong> CÔNG TY TNHH MTV TC MCREDIT</Typography.Text>
+          <Typography.Text strong> CÔNG TY TÀI CHÍNH CỔ PHẦN TÍN VIỆT</Typography.Text>
         </p>
         <p>
           Bên B (Bên vay) Ông / Bà :
@@ -75,8 +75,12 @@ export default function App({ data, profile }) {
           <Typography.Text strong>{data?.times} tháng</Typography.Text>
         </p>
         <p>
-          Lãi suất vay : <Typography.Text strong>0.8%</Typography.Text> mỗi
+          Lãi suất cho vay là : <Typography.Text strong>0.8%</Typography.Text> mỗi
           tháng
+        </p>
+        <p>
+          Lãi suất cho vay là: <Typography.Text strong>9.6%</Typography.Text> mỗi
+          năm
         </p>
         <p>
           Hợp đồng nêu rõ các bên đã đặt được thỏa thuận vay sau khi thương

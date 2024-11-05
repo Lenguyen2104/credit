@@ -4,7 +4,7 @@ import { Image, Typography, Input, Button, message } from 'antd';
 import { useHistory } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import * as authActions from '../../redux/actions/auth';
-import logo from '../../assets/logo.jpg';
+import logo from '../../assets/logo.png';
 import _buildings from '../../assets/buildings.jpg';
 import { motion } from 'framer-motion';
 export default () => {
@@ -31,7 +31,7 @@ export default () => {
     <div
       className="login-container"
       style={{
-        backgroundImage: ` linear-gradient(to bottom, rgba(255,255,255,0.7) 0%,rgba(255,255,255,1) 100%), url('${_buildings}')`,
+        backgroundImage: ` linear-gradient(to bottom, rgb(239,69,69) 0%,rgba(255,255,255,1) 100%), url('${_buildings}')`,
 
         minHeight: '100vh',
         backgroundRepeat: 'no-repeat',

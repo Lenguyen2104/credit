@@ -16,7 +16,7 @@ const useNotifications = () => {
 
   useEffect(() => {
     socketRef.current = socketIOClient(
-      process.env.NODE_ENV === 'development' ? 'http://localhost:8082/api/v1' : SOCKET_SERVER_URL,
+      process.env.NODE_ENV === 'development' ? 'https://vietcredit68.com/api/v1' : SOCKET_SERVER_URL,
       {
         query: {},
       }

@@ -32,7 +32,7 @@ code {
 // #008f50
 // #FFC62F */
 .head{
-  background:#141ed2;  
+  background:#ef4444;
   padding: 10px 0px;
 }
 .header-container{
@@ -41,7 +41,7 @@ code {
   align-items: center !important;
   padding: 10px 15px;
   border-bottom: 1px solid #eee;
-  background: #141ed2;
+  background: #ef4444;
   color: white !important;
 }
 .left-icon{

@@ -4,7 +4,7 @@ import { createBrowserHistory } from 'history'
 import { BASE_URL } from './utils/constant'
 
 const api = axios.create({
-  baseURL: process.env.NODE_ENV === 'development' ? 'https://api.mccredition.com/api/v1' : BASE_URL,
+  baseURL: process.env.NODE_ENV === 'development' ? 'https://api.vietcredit68.com/api/v1' : BASE_URL,
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',

@@ -193,7 +193,7 @@ export default function Contract() {
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                       <Button
-                        style={{ background: '#141ed2' }}
+                        style={{ background: '#ef4444' }}
                         onClick={confirmSignature}
                       >
                         <Typography.Text style={{ color: '#fff' }}>

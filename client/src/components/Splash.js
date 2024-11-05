@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Splash.css';
 import { motion } from 'framer-motion';
 import { Image } from 'antd';
-import logoWhite from '../assets/logo.jpg';
+import logoWhite from '../assets/logo.png';
 export default function Splash() {
   const [current, setCurrent] = useState(0);
 

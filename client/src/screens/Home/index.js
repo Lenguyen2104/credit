@@ -54,7 +54,7 @@ export default function Home() {
         <img
           width={150}
           style={{ margin: 'auto', marginTop: '16px' }}
-          src={require('../../assets/logo.jpg')}
+          src={require('../../assets/logo.png')}
           alt="banner"
         />
       </div>
@@ -84,19 +84,19 @@ export default function Home() {
 
       <div className="flex w-full mt-4  justify-evenly items-center text-center">
         <div>
-          <div className="bg-[#141ed2] p-4 rounded-xl ">
+          <div className="bg-[#ef4444] p-4 rounded-xl ">
             <img src="https://i.imgur.com/K4FwYjY.png" width={75} />
           </div>
           <span className="text-md font-semibold">Tiết kiệm lớn</span>
         </div>
         <div>
-          <div className="bg-[#141ed2] p-4 rounded-xl">
+          <div className="bg-[#ef4444] p-4 rounded-xl">
             <img src="https://i.imgur.com/OSZE3zH.png" width={75} />
           </div>
           <span className="text-md font-semibold">Lãi xuất thấp</span>
         </div>
         <div>
-          <div className="bg-[#141ed2] p-4 rounded-xl">
+          <div className="bg-[#ef4444] p-4 rounded-xl">
             <img src="https://i.imgur.com/9IOHAZt.png" width={75} />
           </div>
           <span className="text-md font-semibold">Giải ngân nhanh</span>
@@ -165,7 +165,7 @@ const Tab = ({ title, onClick, icon }) => {
       whileTap={{
         scale: 0.96,
         opacity: 0.3,
-        border: '1px solid #141ed2',
+        border: '1px solid #ef4444',
       }}
       onClick={onClick}
       style={{
@@ -174,12 +174,12 @@ const Tab = ({ title, onClick, icon }) => {
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: '7px 15px',
-        border: '1px solid #141ed2',
+        border: '1px solid #ef4444',
         borderRadius: 5,
       }}
     >
       <Typography.Text
-        style={{ flex: 1, fontSize: 16, color: '#141ed2', fontWeight: 500 }}
+        style={{ flex: 1, fontSize: 16, color: '#ef4444', fontWeight: 500 }}
       >
         {title}
       </Typography.Text>

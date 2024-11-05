@@ -46,13 +46,13 @@ export default function Navigator() {
         <HomeOutlined
           style={{
             fontSize: 20,
-            color: current == 'home' ? '#141ed2' : '#666',
+            color: current == 'home' ? '#ef4444' : '#666',
           }}
         />
         <Typography.Text
           style={{
             fontSize: 12,
-            color: current == 'home' ? '#141ed2' : '#666',
+            color: current == 'home' ? '#ef4444' : '#666',
           }}
         >
           Trang chủ
@@ -75,13 +75,13 @@ export default function Navigator() {
         <CustomerServiceOutlined
           style={{
             fontSize: 20,
-            color: current == 'support' ? '#141ed2' : '#666',
+            color: current == 'support' ? '#ef4444' : '#666',
           }}
         />
         <Typography.Text
           style={{
             fontSize: 12,
-            color: current == 'support' ? '#141ed2' : '#666',
+            color: current == 'support' ? '#ef4444' : '#666',
           }}
         >
           Hỗ trợ
@@ -108,13 +108,13 @@ export default function Navigator() {
         <CreditCardOutlined
           style={{
             fontSize: 20,
-            color: current == 'wallet' ? '#141ed2' : '#666',
+            color: current == 'wallet' ? '#ef4444' : '#666',
           }}
         />
         <Typography.Text
           style={{
             fontSize: 12,
-            color: current == 'wallet' ? '#141ed2' : '#666',
+            color: current == 'wallet' ? '#ef4444' : '#666',
           }}
         >
           Ví tiền
@@ -140,13 +140,13 @@ export default function Navigator() {
         <UserOutlined
           style={{
             fontSize: 20,
-            color: current == 'me' ? '#141ed2' : '#666',
+            color: current == 'me' ? '#ef4444' : '#666',
           }}
         />
         <Typography.Text
           style={{
             fontSize: 12,
-            color: current == 'me' ? '#141ed2' : '#666',
+            color: current == 'me' ? '#ef4444' : '#666',
           }}
         >
           Hồ sơ
